@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/390183446.svg)](https://zenodo.org/badge/latestdoi/390183446)
+
+
 # Global Changes in Electricity Consumption During COVID-19
 
 Code for the paper:
