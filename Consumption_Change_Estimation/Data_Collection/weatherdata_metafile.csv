@@ -1,0 +1,671 @@
+﻿StationID,City,Population,Country
+LOWW,Vienna,1.9,Austria
+LOWG,Graz,0.29,Austria
+LOWI,Innsbruck,0.13,Austria
+LOWK,Klagenfurt,0.1,Austria
+LOWL,Linz,0.2,Austria
+LOWS,Salzburg,0.16,Austria
+EBAW,Antwerp,0.52,Belgium
+EBBR,Brussels,1.2,Belgium
+EBCI,Charleroi,0.2,Belgium
+EBLG,Liege,0.2,Belgium
+LQBK,Banja Luka,0.2,Bosnia
+LQMO,Mostar,0.11,Bosnia
+LBBG,Bourgas,0.2,Bulgaria
+LBPD,Plovdiv,0.35,Bulgaria
+LBSF,Sofia,1.2,Bulgaria
+LBWN,Varna,0.34,Bulgaria
+LDOS,Osijek,0.11,Croatia
+LDRI,Rijeka,0.13,Croatia
+LDSP,Split,0.18,Croatia
+LDZA,Zagreb,0.81,Croatia
+LCEN,Nicosia,0.12,Cyprus
+LKTB,Brno,0.38,Czech_Republic
+LKMT,Ostrava,0.29,Czech_Republic
+LKPR,Prague,1.3,Czech_Republic
+EKYT,Aalborg,0.14,Denmark
+EKAH,Aarhus,0.27,Denmark
+EKRK,Copenhagen,0.79,Denmark
+EKOD,Odense,0.18,Denmark
+EETN,Tallinn,0.44,Estonia
+EETU,Tartu,0.09,Estonia
+EFHK,Helsinki,0.65,Finland
+EFJY,Jyvaskyla,0.14,Finland
+EFKU,Kuopio,0.12,Finland
+EFOU,Oulu,0.2,Finland
+EFTP,Tampere,0.24,Finland
+EFTU,Turku,0.19,Finland
+LFLP,Annecy,0.13,France
+LFBD,Bordeaux,0.25,France
+LFRB,Brest,0.14,France
+LFRK,Caen,0.11,France
+LFLC,Clermont-Ferrand,0.14,France
+LFSD,Dijon,0.16,France
+LFLS,Grenoble,0.16,France
+LFOH,Le Havre,0.17,France
+LFRM,Le Mans,0.14,France
+LFQQ,Lille,0.23,France
+LFBL,Limoges,0.13,France
+LFLY,Lyon,0.51,France
+LFML,Marseille,0.87,France
+LFJL,Metz,0.12,France
+LFMT,Montpellier,0.29,France
+LFSB,Mulhouse,0.11,France
+LFSN,Nancy,0.1,France
+LFRS,Nantes,0.31,France
+LFMN,Nice,0.34,France
+LFTW,Nimes,0.15,France
+LFOJ,Orleans,0.12,France
+LFPO,Paris,2.1,France
+LFMP,Perpignan,0.12,France
+LFQA,Reims,0.18,France
+LFRN,Rennes,0.22,France
+LFOP,Rouen,0.11,France
+LFMH,St-Etienne,0.17,France
+LFST,Strasbourg,0.28,France
+LFBO,Toulouse,0.48,France
+LFOT,Tours,0.14,France
+EDMA,Augsburg,0.3,Germany
+EDDB,Berlin,3.8,Germany
+EDVE,Braunschweig,0.25,Germany
+EDDW,Bremen,0.57,Germany
+ETHC,Celle,0.18,Germany
+EDDK,Cologne,1.1,Germany
+EDLW,Dortmund,0.59,Germany
+EDDC,Dresden,0.55,Germany
+EDDL,Duesseldorf,0.62,Germany
+EDDE,Erfurt,0.21,Germany
+EDDF,Frankfurt,0.75,Germany
+EDHI,Hamburg,1.9,Germany
+EDDV,Hannover,0.54,Germany
+ETSI,Ingolstadt,0.14,Germany
+EDSB,Karlsruhe,0.31,Germany
+EDVK,Kassel,0.2,Germany
+EDHK,Kiel,0.25,Germany
+EDDP,Leipzig,0.59,Germany
+EDHL,Luebeck,0.22,Germany
+EDFM,Mannheim,0.31,Germany
+EDLN,Moenchengladbach,0.26,Germany
+EDDM,Munich,1.5,Germany
+EDDG,Munster,0.31,Germany
+EDDN,Nuernberg,0.52,Germany
+EDLP,Paderborn,0.15,Germany
+EDDR,Saarbruecken,0.18,Germany
+EDDS,Stuttgart,0.63,Germany
+ETOU,Wiesbaden,0.28,Germany
+LGAV,Athens,0.66,Greece
+LGSA,Chania,0.11,Greece
+LGIR,Heraklion,0.17,Greece
+LGIO,Ioannina,0.11,Greece
+LGKR,Kerkyra,0.1,Greece
+LGRX,Patras,0.17,Greece
+LGTS,Thessaloniki,0.33,Greece
+LHBP,Budapest,1.8,Hungary
+LHDC,Debrecen,0.2,Hungary
+LHPR,Győr,0.13,Hungary
+LHKE,Kecskemet,0.11,Hungary
+EIKN,Connaught,0.55,Ireland
+EICK,Cork,0.21,Ireland
+EIDW,Dublin,0.55,Ireland
+EIKY,Kerry,0.15,Ireland
+LIPY,Ancona,0.1,Italy
+LIBD,Bari,0.33,Italy
+LIME,Bergamo,0.12,Italy
+LIPE,Bologna,0.39,Italy
+LIPB,Bolzano,0.11,Italy
+LIPO,Brescia,0.2,Italy
+LIEE,Cagliari,0.15,Italy
+LICC,Catania,0.31,Italy
+LIRQ,Florence,0.38,Italy
+LIBF,Foggia,0.15,Italy
+LIPK,Forli,0.12,Italy
+LIMJ,Genoa,0.58,Italy
+LIRL,Latina,0.13,Italy
+LICF,Messina,0.23,Italy
+LIML,Milan,1.4,Italy
+LIRN,Naples,0.97,Italy
+LIPU,Padova,0.21,Italy
+LICJ,Palermo,0.68,Italy
+LIMP,Parma,0.2,Italy
+LIRZ,Perugia,0.17,Italy
+LIBP,Pescara,0.12,Italy
+LIMS,Piacenza,0.1,Italy
+LICR,Reggio Calabria,0.2,Italy
+LIPR,Rimini,0.15,Italy
+LIRF,Rome,2.9,Italy
+LIRI,Salerno,0.13,Italy
+LIMF,Torino,0.88,Italy
+LIVT,Trieste,0.2,Italy
+LIPZ,Venice,0.26,Italy
+EVRA,Riga,0.63,Latvia
+EYKA,Kaunas,0.33,Lithuania
+EYSA,Siauliai,0.1,Lithuania
+EYVI,Vilnius,0.58,Lithuania
+ELLX,Luxemburg,0.63,Luxembourg
+EHAM,Amsterdam,0.87,Netherlands
+EHEH,Eindhoven,0.23,Netherlands
+EHGG,Groningen,0.23,Netherlands
+EHLW,Leeuwarden,0.12,Netherlands
+EHBK,Maastricht,0.12,Netherlands
+EHRD,Rotterdam,0.65,Netherlands
+ENBR,Bergen,0.46,Norway
+ENGM,Oslo,0.48,Norway
+ENZV,Stavanger,0.14,Norway
+ENVA,Trondheim,0.19,Norway
+EPBY,Bydgoszcz,0.35,Poland
+EPGD,Gdansk,0.47,Poland
+EPKT,Katowice,0.29,Poland
+EPKK,Krakow,0.77,Poland
+EPLL,Lodz,0.68,Poland
+EPLB,Lublin,0.34,Poland
+EPPO,Poznan,0.54,Poland
+EPRA,RADOM,0.21,Poland
+EPRZ,Rzeszow,0.2,Poland
+EPSC,Szczecin,0.4,Poland
+EPMO,Warsaw,1.8,Poland
+EPWR,Wroclaw,0.64,Poland
+EPZG,Zielona Gora,0.14,Poland
+LPFR,Faro,0.12,Portugal
+LPPT,Lisbon,0.51,Portugal
+LPPR,Porto,0.29,Portugal
+LPST,Sintra,0.38,Portugal
+LRAR,Arad,0.16,Romania
+LRBC,Bacau,0.14,Romania
+LRBM, Baia Mare,0.12,Romania
+LROP,Bucharest,1.9,Romania
+LRCL,Cluj-napoca,0.32,Romania
+LRCK,Constanta,0.28,Romania
+LRCV,Craiova,0.27,Romania
+LRIA,Iasi,0.29,Romania
+LROD,Oradea,0.2,Romania
+LRSM,Satu Mare,0.1,Romania
+LRSB,Sibiu,0.15,Romania
+LRSV,Suceava,0.12,Romania
+LRTR,Timisoara,0.32,Romania
+LRTM,Tirgu Mures,0.13,Romania
+LYBE,Belgrade,1.2,Serbia
+LYNI,Nis,0.26,Serbia
+LZIB,Bratislava,0.43,Slovakia
+LZKZ,Kosice,0.24,Slovakia
+LJLJ,Ljubljana,0.29,Slovenia
+LJMB,Maribor,0.1,Slovenia
+LEAB,Albacete,0.17,Spain
+LEAL,Alicante,0.33,Spain
+LEAM,Almeria,0.2,Spain
+LEBZ,Badajoz,0.15,Spain
+LEBL,Barcelona,1.6,Spain
+LEBB,Bilbao,0.35,Spain
+LEBG,Burgos,0.18,Spain
+LEBA,Cordoba,0.33,Spain
+LEGE,Gerona,0.1,Spain
+LEGR,Granada,0.23,Spain
+LEJR,Jerez,0.2,Spain
+LECO,La Coruna,0.24,Spain
+LELN,Leon,0.12,Spain
+LEDA,Lleida,0.14,Spain
+LEMD,Madrid,3.2,Spain
+LEMG,Malaga,0.57,Spain
+LELC,Murcia,0.45,Spain
+LEPA,Palma de Mallorca,0.41,Spain
+LEPP,Pamplona,0.2,Spain
+LERS,Reus,0.1,Spain
+LELL,Sabadell,0.21,Spain
+LESA,Salamanca,0.14,Spain
+LESO,San Sebastian,0.19,Spain
+LEXJ,Santander,0.17,Spain
+LEZL,Sevilla,0.69,Spain
+LEVC,Valencia,0.79,Spain
+LEVD,Valladolid,0.3,Spain
+LEVX,Vigo,0.3,Spain
+LEVT,Vitoria,0.25,Spain
+LEZG,Zaragoza,0.67,Spain
+ESGG,Gothenborg,0.58,Sweden
+ESCF,Linkoeping,0.1,Sweden
+ESMS,Malmoe,0.32,Sweden
+ESSP,Norrkoeping,0.14,Sweden
+ESOE,Orebro,0.15,Sweden
+ESSA,Stockholm,0.98,Sweden
+ESCM,Uppsala,0.17,Sweden
+ESOW,Vasteras,0.12,Sweden
+LSZB,Bern,0.13,Switzerland
+LSGG,Geneva,0.2,Switzerland
+LSZH,Zurich,0.42,Switzerland
+UKLN,Chernovtsk,0.27,Ukraine
+UKDD,Dnepropetrovsk,1,Ukraine
+UKLI,Ivano-Frankivsk,0.23,Ukraine
+UKHH,Kharkov,2.1,Ukraine
+UKKK,Kiev,3,Ukraine
+UKDR,Krivoy Rog,0.63,Ukraine
+UKLL,Lvov,0.72,Ukraine
+UKON,Nikolayev,0.5,Ukraine
+UKOO,Odessa,1,Ukraine
+UKLR,Rivne,0.25,Ukraine
+UKLU,Uzhgorod,0.12,Ukraine
+UKDE,Zaporozhye,0.74,Ukraine
+EGPD,Aberdeen,0.2,United-Kingdom
+EGAA,Belfast,0.34,United-Kingdom
+EGBB,Birmingham,1.1,United-Kingdom
+EGNH,Blackpool,0.14,United-Kingdom
+EGHH,Bournemouth,0.18,United-Kingdom
+EGGD,Bristol,0.46,United-Kingdom
+EGSC,Cambridge,0.12,United-Kingdom
+EGFF,Cardiff,0.36,United-Kingdom
+EGCN,Sheffield,0.58,United-Kingdom
+EGPN,Dundee,0.15,United-Kingdom
+EGPH,Edinburgh,0.49,United-Kingdom
+EGTE,Exeter,0.13,United-Kingdom
+EGPF,Glasgow,0.63,United-Kingdom
+EGNM,Leeds,0.79,United-Kingdom
+EGGP,Liverpool,0.5,United-Kingdom
+EGSS,London,8.9,United-Kingdom
+EGCC,Manchester,0.55,United-Kingdom
+EGNT,Newcastle,0.3,United-Kingdom
+EGSH,Norwich,0.14,United-Kingdom
+EGTK,Oxford,0.15,United-Kingdom
+EGHI,Southampton,0.27,United-Kingdom
+EGMC,Southend,0.18,United-Kingdom
+EGNV,Teesside,0.67,United-Kingdom
+NZAA,Auckland,1.5,NZ
+NZCH,Christchurch,0.39,NZ
+NZWN,Wellington,0.22,NZ
+CYTZ,Toronto,2.7,ontario
+CYOW,Ottawa,0.93,ontario
+CYHM,Hamilton,0.54,ontario
+CYXU,London,0.38,ontario
+CYQG,Windsor,0.22,ontario
+CXBI,BARRIE-ORO,0.14,ontario
+CWWB,BURLINGTON,0.18,ontario
+CYCK,Chatham Kent,0.1,ontario
+CYOO,OSHAWA,0.17,ontario
+CYSB,SUDBURY,0.16,ontario
+CYQT,Thunder Bay,0.11,ontario
+CYKF,WATERLOO,0.1,ontario
+YPAD,Adelaide,1.3,australia
+YBBN,Brisbane,2.5,australia
+YBCS,Cairns,0.15,australia
+YSCB,Canberra,0.43,australia
+YMHB,Hobart,0.24,australia
+YMLT,Launceston,0.09,australia
+YMML,Melbourne,5.1,australia
+YWLM,Newcastle,0.32,australia
+YPPH,Perth,2.1,australia
+YPDN,Darwin,0.09,australia
+YSSY,Sydney,5.3,australia
+YBTL,Townsville,0.18,australia
+WSSS,Singapore,1,singapore
+WSSL,Singapore,1,singapore
+VEAT,Agartala,0.4,india
+VIAG,Agra,1.6,india
+VAAH,Ahmedabad,5.6,india
+VIAL,Allahabad,1.1,india
+VIAR,Amritsar,1.1,india
+VAAU,Aurangabad,1.2,india
+VOBG,Bangalore,8.4,india
+VABP,Bhopal,1.8,india
+VEBS,Bhubaneswar,0.84,india
+VOCL,Calicut,0.43,india
+VICG,Chandigarh,1,india
+VOCB,Coimbatore,1.6,india
+VIDD,Delhi,16.8,india
+VEGY,Gaya,0.47,india
+VEGK,Gorakhpur,0.67,india
+VEGT,Guwahati,2.4,india
+VIGR,Gwalior,1.1,india
+VOHY,Hyderabad,6.8,india
+VEIM,Imphal,0.27,india
+VAID,Indore,2,india
+VAJB,Jabalpur,1.3,india
+VIJP,Jaipur,3,india
+VEJS,Jamshedpur,0.63,india
+VIJO,Jodhpur,1.1,india
+VOCI,Kochi,0.68,india
+VECC,Kolkata,4.5,india
+VIKO,Kota,1,india
+VILK,Lucknow,2.8,india
+VOMM,Madras,7.1,india
+VOMD,Madurai,1.5,india
+VOML,Mangalore,0.48,india
+VEMN,Mohanbari,0.15,india
+VABB,Mumbai,12.5,india
+VANP,Nagpur,2.4,india
+VAPR,Porbandar,0.22,india
+VERP,Raipur,1,india
+VARK,Rajkot,1.4,india
+VERC,Ranchi,1.1,india
+VISR,Srinagar,1.2,india
+VOTR,Tiruchirappalli,0.92,india
+VOTV,Trivandrum,0.96,india
+VAUD,Udaipur,0.45,india
+VEBN,Varanasi,1.2,india
+VOBZ,Vijayawada,1.5,india
+VOVZ,Vizagapatam,2,india
+RJTT,Tokyo,37.4,japan
+RJAT,FUJI,3.6,japan
+RJAH,Ibaraki,2.9,japan
+RJTK,Kisarazu,3.1,japan
+RJTL,Shimofusa,3.1,japan
+RJTU,UTSUNOMIYA,1.9,japan
+RJTR,Zama,9,japan
+RKPK,Busan,3.4,korea
+RKTU,Chongju,0.84,korea
+RKJJ,Kwangju,1.5,korea
+RKJK,Kunsan,0.28,korea
+RKSO,Osan,0.19,korea
+RKTH,Pohang,0.52,korea
+RKSG,Pyongtaek,0.5,korea
+RKPS,Sacheon,0.11,korea
+RKTS,Sangju,0.1,korea
+RKSS,Seoul,9.7,korea
+RKTN,Taegu,2.5,korea
+RKPU,Ulsan,1.2,korea
+SBHT,Altamira,0.11,brazil
+SBAN,Anapolis,0.36,brazil
+SBAR,Aracaju,0.64,brazil
+SBAU,Aracatuba,0.19,brazil
+SBAX,Araxa,0.1,brazil
+SBBG,Bage,0.12,brazil
+SBBQ,Barbacena,0.13,brazil
+SBBT,Barretos,0.12,brazil
+SBBU,Bauru,0.37,brazil
+SBBE,Belem,1.4,brazil
+SBCF,Belo Horizonte,2.5,brazil
+SBBR,Brasilia,3,brazil
+SBCB,Cabo Frio,0.22,brazil
+SBKG,Campina Grande,0.41,brazil
+SBKP,Campinas,1.2,brazil
+SBCG,Campo Grande,0.87,brazil
+SBCA,Cascavel,0.32,brazil
+SBCX,Caxias Do Sul,0.5,brazil
+SBCH,Chapeco,0.22,brazil
+SBCY,Cuiaba,0.61,brazil
+SBBI,Curitiba,1.9,brazil
+SBFL,Florianopolis,0.48,brazil
+SBFZ,Fortaleza,2.6,brazil
+SBFI,Foz Do Iguacu,0.26,brazil
+SBGO,Goiania,1.5,brazil
+SBGW,Guaratingueta,0.14,brazil
+SBIL,Ilheus,0.16,brazil
+SBIZ,Imperatriz,0.25,brazil
+SBIP,Ipatinga,0.26,brazil
+SBCC,Itaituba,0.1,brazil
+SBJP,Joao Pessoa,0.8,brazil
+SBJV,Joinville,0.58,brazil
+SBJU,Juazeiro Do Norte,0.27,brazil
+SBLO,Londrina,0.57,brazil
+SBME,Macaé,0.24,brazil
+SBMQ,Macapa,0.49,brazil
+SBMO,Maceio,1,brazil
+SBMN,Manaus,2.2,brazil
+SBMA,Maraba,0.27,brazil
+SBML,Marília,0.23,brazil
+SBMG,Maringa,0.4,brazil
+SBMK,Montes Claros,0.39,brazil
+SBNT,Natal,0.88,brazil
+SBPJ,Palmas,0.29,brazil
+SBPG,PARANAGUA,0.15,brazil
+SBCJ,Parauapebas,0.2,brazil
+SBPB,Parnaiba,0.15,brazil
+SBPF,Passo Fundo,0.2,brazil
+SBPK,Pelotas,0.34,brazil
+SBPL,Petrolina,0.35,brazil
+SBPC,Pocos De Caldas,0.55,brazil
+SBCO,Porto Alegre,1.5,brazil
+SBPV,Porto Velho,0.52,brazil
+SBDN,President Prudente,0.23,brazil
+SBRF,Recife,1.6,brazil
+SBRP,Ribeirao Preto,0.66,brazil
+SBRB,Rio Branco,0.41,brazil
+SBGL,Rio De Janeiro,6.7,brazil
+SBSV,Salvador,2.9,brazil
+SBSM,Santa Maria,0.28,brazil
+SBSN,Santarem,0.3,brazil
+SBST,Santos,0.43,brazil
+SBSR,Sao Jose Do Rio Preto,0.46,brazil
+SBSJ,Sao Jose Dos Campos,0.88,brazil
+SBSL,Sao Luis,1.1,brazil
+SBSP,Sao Paulo,12.2,brazil
+SBTA,Taubaté,0.31,brazil
+SBTE,Teresina,0.86,brazil
+SBTU,Tucurui,0.11,brazil
+SBUR,Uberaba,0.33,brazil
+SBUL,Uberlandia,0.68,brazil
+SBUG,Uruguaiana,0.13,brazil
+SBVT,Vitoria,0.36,brazil
+SBQV,Vitória Da Conquista,0.35,brazil
+SCFA,Antofagasta,0.35,chile
+SCAR,Arica,0.22,chile
+SCCF,Calama,0.15,chile
+SCCH,Chillan,0.17,chile
+SCIE,Concepcion,1,chile
+SCAT,Copiapo,0.16,chile
+SCIC,Curico,0.14,chile
+SCDA,Iquique,0.19,chile
+SCSE,La Serena,0.2,chile
+SCGE,Los Angeles,0.19,chile
+SCJO,Osorno,0.15,chile
+SCTE,Puerto Montt,0.25,chile
+SCCI,Punta Arenas,0.13,chile
+SCEL,Santiago,5.2,chile
+SCQP,Temuco,0.26,chile
+SCVD,Valdivia,0.15,chile
+SCVM,Vina del Mar,0.32,chile
+UNAA,Abakan,0.17,russia
+ULAA,Arkhangelsk,0.35,russia
+URWA,Astrakhan,0.52,russia
+UNBB,Barnaul,0.63,russia
+UUOB,Belgorod,0.36,russia
+UHBB,Blagoveschensk,0.22,russia
+UIBB,Bratsk,0.23,russia
+UUBP,Bryansk,0.42,russia
+UWKS,Cheboksary,0.45,russia
+USCC,Chelyabinsk,1.2,russia
+UIAA,Chita,0.35,russia
+URWI,Elista,0.1,russia
+UIII,Irkutsk,0.62,russia
+UMKK,Kaliningrad,0.48,russia
+UWKD,Kazan,1.2,russia
+UHHH,Khabarovsk,0.62,russia
+URKK,Krasnodar,0.9,russia
+UNKL,Krasnoyarsk,1.1,russia
+UUOK,Kursk,0.45,russia
+URML,Makhachkala,0.6,russia
+UUMO,Moscow,12.5,russia
+ULMM,Murmansk,0.3,russia
+URMN,Nalchik,0.24,russia
+UWKE,Nizhnekamsk,0.24,russia
+USNN,Nizhnevartovsk,0.25,russia
+UWGG,Nizhniy Novgorod,1.3,russia
+UOOO,Norilsk,0.18,russia
+UNNT,Novosibirsk,1.6,russia
+UNOO,Omsk,1.2,russia
+UWOO,Orenburg,0.56,russia
+UWOR,Orsk,0.23,russia
+USPP,Perm,1.1,russia
+UHPP,Petropavlovsk,0.18,russia
+UWWW,Samara,1.2,russia
+UWSS,Saratov,0.84,russia
+URSS,Sochi,0.42,russia
+URMT,Stavropol,0.43,russia
+ULLI,St. Petersburg,5.4,russia
+USRR,Surgut,0.45,russia
+UUYY,Syktyvkar,0.25,russia
+UNTT,Tomsk,0.57,russia
+USTR,Tyumen,0.77,russia
+UWUU,Ufa,1.1,russia
+UIUU,Ulan-ude,0.43,russia
+UWLW,Ulyanovsk,0.63,russia
+UHWW,Vladivostok,0.6,russia
+URWW,Volgograd,1,russia
+UUOO,Voronezh,1,russia
+UEEE,Yakutsk,0.31,russia
+UUDL,Yaroslavl,0.61,russia
+USSS,Yekaterinburg,1.5,russia
+UHSS,Yuzhno-sakhalinsk,0.2,russia
+FABL,Bloemfontein,0.56,south_africa
+FACT,Cape Town,3.8,south_africa
+FALE,Durban,3.7,south_africa
+FAEL,East London,0.27,south_africa
+FAGG,George,0.16,south_africa
+FALA,Johannesburg,1.6,south_africa
+FAKM,Kimberley,0.23,south_africa
+FAKN,Nelspruit,0.11,south_africa
+FAOB,Overberg,0.26,south_africa
+FAPB,Pietersburg,0.13,south_africa
+FAPE,Port Elizabeth,1,south_africa
+FAWB,Pretoria,2.5,south_africa
+FAUT,Umtata,0.21,south_africa
+CYXX,ABBOTSFORD,0.14,british_columbia
+CYKA,KAMLOOPS,0.1,british_columbia
+CYLW,KELOWNA,0.21,british_columbia
+CYCD,NANAIMO,0.09,british_columbia
+CYXS,PRINCE GEORGE,0.07,british_columbia
+CYVR,VANCOUVER,0.63,british_columbia
+CWYJ,VICTORIA,0.09,british_columbia
+VTBS,Bangkok,8.3,thailand
+VTCC,Chiang Mai,0.13,thailand
+VTSS,Hat Yai,0.16,thailand
+VTUK,Khon Kaen,0.11,thailand
+VTUQ,Nakhon Ratchasima,0.13,thailand
+VTSF,Nakhon Si Thammarat,0.1,thailand
+VTBU,Pattaya,0.12,thailand
+VTSP,Phuket,0.42,thailand
+VTSB,Surat Thani,0.13,thailand
+VTUU,Ubon Ratchathani,0.11,thailand
+VTUD,Udon Thani,0.13,thailand
+SAZB,Bahia Blanca,0.3,argentina
+SABE,Buenos Aires,2.9,argentina
+SANC,Catamarca,0.16,argentina
+SAVC,Comodoro Rivadavia,0.18,argentina
+SAAC,Concordia,0.15,argentina
+SACO,Cordoba,1.3,argentina
+SARC,Corrientes,0.35,argentina
+SARF,Formosa,0.23,argentina
+SAAG,Gualeguaychu,0.11,argentina
+SASJ,Jujuy,0.26,argentina
+SADL,La Plata,0.77,argentina
+SANL,La Rioja,0.18,argentina
+SAZM,Mar Del Plata,0.61,argentina
+SAME,Mendoza,0.12,argentina
+SAZN,Neuquen,0.22,argentina
+SAAP,Parana,0.25,argentina
+SARL,Paso De Los Libres,0.13,argentina
+SARP,Posadas,0.28,argentina
+SARE,Resistencia,0.29,argentina
+SAOC,Rio Cuarto,0.16,argentina
+SAAR,Rosario,1.3,argentina
+SASA,Salta,0.54,argentina
+SAZS,San Carlos De Bariloche,0.11,argentina
+SANU,San Juan,0.11,argentina
+SAOU,San Luis,0.17,argentina
+SAMR,San Rafael,0.12,argentina
+SAAV,Santa Fe,0.39,argentina
+SAZR,Santa Rosa,0.1,argentina
+SANE,Santiago Del Estero,0.25,argentina
+MMAA,Acapulco,0.69,mexico
+MMAS,Aguascalientes,0.93,mexico
+MMCP,Campeche,0.22,mexico
+MMUN,Cancun,0.74,mexico
+MMCM,Chetumal,0.15,mexico
+MMCU,Chihuahua,0.88,mexico
+MMCE,Ciudad Del Carmen,0.17,mexico
+MMCS,Ciudad Juarez,1.3,mexico
+MMCN,Ciudad Obregon,0.41,mexico
+MMCV,Ciudad Victoria,0.31,mexico
+MMIA,Colima,0.15,mexico
+MMCZ,Cozumel,0.1,mexico
+MMCB,Cuernavaca,0.37,mexico
+MMCL,Culiacan,0.79,mexico
+MMDO,Durango,0.65,mexico
+MMGL,Guadalajara,1.5,mexico
+MMGM,Guaymas,0.13,mexico
+MMHO,Hermosillo,0.81,mexico
+MMLP,La Paz,0.24,mexico
+MMLM,Los Mochis,0.26,mexico
+MMZO,Manzanillo,0.14,mexico
+MMMA,Matamoros,0.52,mexico
+MMMZ,Mazatlan,0.5,mexico
+MMMD,Merida,0.89,mexico
+MMML,Mexicali,1,mexico
+MMMX,Mexico City,8.9,mexico
+MMMT,Minatitlan,0.16,mexico
+MMMV,Monclova,0.23,mexico
+MMAN,Monterrey,1.1,mexico
+MMMM,Morelia,0.78,mexico
+MMNL,Nuevo Laredo,0.37,mexico
+MMOX,Oaxaca,0.3,mexico
+MMPQ,Palenque,0.11,mexico
+MMPG,Piedras Negras,0.16,mexico
+MMPB,Puebla,1.6,mexico
+MMPR,Puerto Vallarta,0.22,mexico
+MMQT,Queretaro,0.8,mexico
+MMRX,Reynosa,0.61,mexico
+MMIO,Saltillo,0.81,mexico
+MMSP,San Luis Potosi,0.82,mexico
+MMTM,Tampico,0.31,mexico
+MMTP,Tapachula,0.31,mexico
+MMEP,Tepic,0.33,mexico
+MMTJ,Tijuana,1.9,mexico
+MMTO,Toluca,0.82,mexico
+MMTC,Torreon,0.68,mexico
+MMTG,Tuxtla Gutierrez,0.6,mexico
+MMPN,Uruapan,0.32,mexico
+MMVR,Vera Cruz,0.55,mexico
+MMVA,Villahermosa,0.64,mexico
+MMZC,Zacatecas,0.14,mexico
+MMZH,Zihuatanejo,0.1,mexico
+ZBOW,Baotou,2.7,china
+ZBAA,Beijing,21.5,china
+ZGHA,Changcha,8.2,china
+ZYCC,Changchun,7.6,china
+ZSCG,Changzhou,4.6,china
+ZUUU,Chengdu,16.3,china
+ZUCK,Chongqing,30.5,china
+ZYTL,Dalian,6.7,china
+ZGDY,Dayong,1.5,china
+ZSFZ,Fuzhou,7.7,china
+ZGGG,Guangzhou,14.9,china
+ZGKL,Guilin,4.7,china
+ZUGY,Guiyang,4.7,china
+ZJHK,Haikou,2,china
+ZSHC,Hangzhou,10.4,china
+ZYHB,Harbin,10.6,china
+ZSOF,Hefei,8,china
+ZBHH,Hohhot,2.9,china
+ZSJN,Jinan,8.7,china
+ZWSH,Kashi,1,china
+ZPPP,Kunming,6.6,china
+ZLLL,Lanzhou,3.6,china
+ZHLY,Luoyang,6.5,china
+ZGMX,Meixian,4.3,china
+ZSCN,Nanchang,5,china
+ZSNJ,Nanjing,8.5,china
+ZGNN,Nanning,7.3,china
+ZSNB,Ninbo,8.2,china
+ZSQD,Qingdao,9,china
+ZSQZ,Quanzhou,8.7,china
+ZJSY,Sanya,0.69,china
+ZSPD,Shanghai,24.3,china
+ZGOW,Shantou,5.4,china
+ZYTX,Shenyang,8.3,china
+ZGSZ,Shenzhen,12.5,china
+ZBSJ,Shijiazhuang,11,china
+ZBYN,Taiyuan,4.2,china
+ZBTJ,Tianjin,15.6,china
+ZMUB,Ulan Bator,1.4,china
+ZWWW,Urumqi,3.5,china
+ZHHH,Wuhan,11.1,china
+ZSAM,Xiamen,3.5,china
+ZLXY,Xi'an,12,china
+ZSYT,Yantai,7,china
+ZHCC,Zhengzhou,10.1,china
+ZUZY,Zunyi,6.1,china
+CYYC,CALGARY,1.3,alberta
+CYEG,EDMONTON,0.9,alberta
+CYQL,LETHBRIDGE,0.09,alberta
+CYQF,RED DEER,0.1,alberta
+HKEL,Eldoret,0.48,kenya
+HKKI,Kisumu,0.72,kenya
+HKML,Malindi,0.12,kenya
+HKMO,Mombasa,1.2,kenya
+HKJK,Nairobi,4.4,kenya
+HKWJ,Wajir,0.09,kenya
