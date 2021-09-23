@@ -10,8 +10,12 @@ library(scales)
 library(readxl)
 
 ################################## Read in COVID case data
+
+# (Originally read in 2020)
 covid.cases.global = read.csv('https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv', header = T)
+write.csv(covid.cases.global, '../Data/Raw/covid.cases.global.csv', row.names = F)
 covid.deaths.global = read.csv('https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv', header = T)
+write.csv(covid.deaths.global, '../Data/Raw/covid.deaths.global.csv', row.names = F)
 covid.cases.us = read.csv('https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv', header = T)
 covid.deaths.us = read.csv('https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv', header = T)
 
