@@ -21,7 +21,7 @@ weekly_data =
     read.csv(fname, header = T) %>% mutate(geography = geography_)
   }) %>%
   bind_rows() %>%
-  mutate(change = actual_mean_weekly_mw - pred_mean_weekly_mw) %>%
+  mutate(change = actual_weekly_mwh - pred_weekly_mwh) %>%
   group_by(week_2020) %>%
   summarize(sum.change = mean(percent_red, na.rm = T))
 
@@ -32,7 +32,7 @@ daily_data =
     read.csv(fname, header = T) %>% mutate(geography = geography_)
   }) %>%
   bind_rows() %>%
-  mutate(change = actual_mean_daily_mw - pred_mean_daily_mw) %>%
+  mutate(change = actual_daily_mwh - pred_daily_mwh) %>%
   group_by(day_2020) %>%
   summarize(sum.change = mean(percent_red, na.rm = T))
 
@@ -67,7 +67,7 @@ weekly_data$best_fit = get_best_fit(desired_df)
 ggplot(weekly_data, aes(week_2020, sum.change)) + 
   geom_point()+
   geom_line(aes(week_2020, best_fit), color = 'red')+
-  labs(x = 'Week of 2020', y = 'Total demand change (MW)') + 
+  labs(x = 'Week of 2020', y = 'Total consumption change (MWh)') + 
   theme_bw()
 ggsave('Figures/breakpoints_weekly.png', height = 3, width = 5)
 
@@ -84,7 +84,7 @@ daily_data$best_fit = get_best_fit(desired_df)
 ggplot(daily_data, aes(day_2020, sum.change)) + 
   geom_point(alpha = 0.4)+
   geom_line(aes(day_2020, best_fit), color = 'red')+
-  labs(x = 'Day of 2020', y = 'Total demand change (MW)') + 
+  labs(x = 'Day of 2020', y = 'Total consumption change (MWh)') + 
   theme_bw()
 ggsave('Figures/breakpoints_daily.png', height = 3, width = 5)
 

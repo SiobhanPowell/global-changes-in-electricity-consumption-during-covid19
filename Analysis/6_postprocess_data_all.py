@@ -84,31 +84,31 @@ for i in range(3):
             subset = covid_deaths.loc[(covid_deaths['Country.Region']==country)&(covid_deaths['Province.State']!=covid_deaths['Province.State'])]
             if len(subset) == 0:
                 subset = covid_deaths.loc[(covid_deaths['Country.Region']==country)].sum(axis=0)
-                per_100k_df_deaths[country2] = (100000)*(1/pop)*subset.loc[covid_deaths.columns[4:]].values.ravel()
+                per_100k_df_deaths[country2] = (100000)*(1/pop)*subset.loc[covid_deaths.columns[4:]].values.ravel()[np.arange(0, len(xvals))]
             else:
-                per_100k_df_deaths[country2] = (100000)*(1/pop)*subset.loc[:, covid_deaths.columns[4:]].values.ravel()
+                per_100k_df_deaths[country2] = (100000)*(1/pop)*subset.loc[:, covid_deaths.columns[4:]].values.ravel()[np.arange(0, len(xvals))]
             subset = covid_cases.loc[(covid_cases['Country.Region']==country)&(covid_cases['Province.State']!=covid_cases['Province.State'])]
             if len(subset) == 0:
                 subset = covid_cases.loc[(covid_cases['Country.Region']==country)].sum(axis=0)
-                per_100k_df_cases[country2] = (100000)*(1/pop)*subset.loc[covid_cases.columns[4:]].values.ravel()
+                per_100k_df_cases[country2] = (100000)*(1/pop)*subset.loc[covid_cases.columns[4:]].values.ravel()[np.arange(0, len(xvals))]
             else:
-                per_100k_df_cases[country2] = (100000)*(1/pop)*subset.loc[:, covid_cases.columns[4:]].values.ravel()
+                per_100k_df_cases[country2] = (100000)*(1/pop)*subset.loc[:, covid_cases.columns[4:]].values.ravel()[np.arange(0, len(xvals))]
              
         elif country == 'British_Columbia':
             pop = pop_data[pop_data['Country/Region']==country2]['Population (thousands)'].values[0] * 1000
             subset = covid_deaths.loc[(covid_cases['Country.Region']=='Canada')&(covid_deaths['Province.State']=='British Columbia')]
-            per_100k_df_deaths[country2] = (100000)*(1/pop)*subset.loc[:, covid_deaths.columns[4:]].values.ravel()
+            per_100k_df_deaths[country2] = (100000)*(1/pop)*subset.loc[:, covid_deaths.columns[4:]].values.ravel()[np.arange(0, len(xvals))]
             
             subset = covid_cases.loc[(covid_cases['Country.Region']=='Canada')&(covid_cases['Province.State']=='British Columbia')]
-            per_100k_df_cases[country2] = (100000)*(1/pop)*subset.loc[:, covid_cases.columns[4:]].values.ravel()
+            per_100k_df_cases[country2] = (100000)*(1/pop)*subset.loc[:, covid_cases.columns[4:]].values.ravel()[np.arange(0, len(xvals))]
             
         elif country in ['Ontario', 'Alberta']:
             pop = pop_data[pop_data['Country/Region']==country2]['Population (thousands)'].values[0] * 1000
             subset = covid_deaths.loc[(covid_cases['Country.Region']=='Canada')&(covid_deaths['Province.State']=='Ontario')]
-            per_100k_df_deaths[country2] = (100000)*(1/pop)*subset.loc[:, covid_deaths.columns[4:]].values.ravel()
+            per_100k_df_deaths[country2] = (100000)*(1/pop)*subset.loc[:, covid_deaths.columns[4:]].values.ravel()[np.arange(0, len(xvals))]
             
             subset = covid_cases.loc[(covid_cases['Country.Region']=='Canada')&(covid_cases['Province.State']=='Ontario')]
-            per_100k_df_cases[country2] = (100000)*(1/pop)*subset.loc[:, covid_cases.columns[4:]].values.ravel()
+            per_100k_df_cases[country2] = (100000)*(1/pop)*subset.loc[:, covid_cases.columns[4:]].values.ravel()[np.arange(0, len(xvals))]
         else:
             print(country)
 
@@ -330,6 +330,9 @@ for i in cluster_mapping.index:
     final_timevarying = timevarying.loc[(timevarying['Date']>=pd.to_datetime('2020-01-01', format='%Y-%m-%d'))&(timevarying['Date']<=pd.to_datetime('2020-10-31', format='%Y-%m-%d'))].copy(deep=True).reset_index(drop=True)
     
     final_timevarying.to_csv('../Data/Intermediate/summary_data/'+country+'_timevarying_recovery_fixed.csv', index=None)
+    if country == 'United Kingdom':
+        final_timevarying.to_csv('../Data/Intermediate/summary_data/'+'United-Kingdom'+'_timevarying_recovery_fixed.csv', index=None)
+        
     
 
 # -------
