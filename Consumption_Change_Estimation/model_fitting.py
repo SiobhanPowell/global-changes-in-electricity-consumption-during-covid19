@@ -23,7 +23,7 @@ alpha_ci=0.05
 num_valid=10
 
 #set random number generator seed (uncomment for reproduceable results)
-#np.random.seed(0)
+np.random.seed(0)
 
 
 #Get number of days and weeks of data in 2020 by checking length of hdd/cdd and electricity data
