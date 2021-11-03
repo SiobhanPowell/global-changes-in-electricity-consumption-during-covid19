@@ -113,7 +113,7 @@ variables = c(
   "Mobility..Workplaces","Mobility..Residences","Mobility..Transit.Stations",
   "Mobility..Grocery.and.Pharmacy","Mobility..Retail.and.Recreation","Mobility..Parks",
   "Q2.2020.change.in.GDP.since.Q2.2019","Q3.2020.change.in.GDP.since.Q2.2020","Q3.2020.change.in.GDP.since.Q3.2019",
-  "Holiday.Effect",
+#  "Holiday.Effect",
   "Commercial.and.public.services","Residential","Industry","Transport","Other",
   "Daily.Cases.per.100k","Daily.Deaths.per.100k"
 )
@@ -150,9 +150,9 @@ sumstats.tukeyHSD.recovery =
   arrange(variable_)  
 
 ################### Output results
-write.csv(sumstats.anova.initial,'Data/Intermediate/sumstats.anova.initial_3digits.csv', row.names = F )  
-write.csv(sumstats.anova.recovery,'Data/Intermediate/sumstats.anova.recovery_3digits.csv', row.names = F )  
-write.csv(sumstats.tukeyHSD.initial,'Data/Intermediate/sumstats.tukeyHSD.initial_3digits.csv', row.names = F )  
-write.csv(sumstats.tukeyHSD.recovery,'Data/Intermediate/sumstats.tukeyHSD.recovery_3digits.csv', row.names = F )  
+write.csv(sumstats.anova.initial,'Data/Intermediate/sumstats.anova.initial_3digits_new.csv', row.names = F )  
+write.csv(sumstats.anova.recovery,'Data/Intermediate/sumstats.anova.recovery_3digits_new.csv', row.names = F )  
+write.csv(sumstats.tukeyHSD.initial,'Data/Intermediate/sumstats.tukeyHSD.initial_3digits_new.csv', row.names = F )  
+write.csv(sumstats.tukeyHSD.recovery,'Data/Intermediate/sumstats.tukeyHSD.recovery_3digits_new.csv', row.names = F )  
 
 
