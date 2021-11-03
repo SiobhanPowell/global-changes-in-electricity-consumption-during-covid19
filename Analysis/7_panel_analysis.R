@@ -83,3 +83,13 @@ summary(model1.fe.initial.full)
 
 model2.fe.recovery.full<- felm(Pct.Change.in.Electricity.Demand~Oxford+Deaths_rolling+Mobility..Retail.and.Recreation|Country, data = dfr, contrasts=c('Country','Date'))
 summary(model2.fe.recovery.full)
+
+
+#Table S5, supplement, random effects without pre-pandemic holiday effect
+model1.re.initial<- plm(Pct.Change.in.Electricity.Demand~Oxford+Deaths_rolling+Mobility..Retail.and.Recreation
+                        +Q2.2020.change.in.GDP.since.Q2.2019+Sector..Commercial.and.public.services, data = pdi, model = "random")
+summary(model1.re.initial)
+
+model2.re.recovery<- plm(Pct.Change.in.Electricity.Demand~Oxford+Deaths_rolling+Mobility..Retail.and.Recreation
+                         +Q2.2020.change.in.GDP.since.Q2.2019+Sector..Commercial.and.public.services, data = pdr, model = "random")
+summary(model2.re.recovery)
