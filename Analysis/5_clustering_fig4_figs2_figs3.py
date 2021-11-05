@@ -135,7 +135,7 @@ period = 'Recovery'
 subset2 = all_data[pd.to_datetime(all_data['Date']).dt.date <= datetime.date(2020, 5, 3)].reset_index(drop=True)
 subset = all_data[pd.to_datetime(all_data['Date']).dt.date > datetime.date(2020, 4, 23)].reset_index(drop=True)
 
-titles = ['Extreme', 'Severe', 'Mild']
+titles = ['Slow', 'Quick', 'Recovered']
 xlims = [datetime.date(2020,4,25), datetime.date(2020,10,27)]
 
 fig, axes = plt.subplots(1,3, figsize=(12,4), sharey=True)
