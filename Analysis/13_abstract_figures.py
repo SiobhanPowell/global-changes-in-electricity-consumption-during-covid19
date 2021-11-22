@@ -11,7 +11,6 @@ all_data = pd.read_csv('../Data/Intermediate/fullperiod_weekly_data_for_clusteri
 full_cluster_mapping = pd.read_csv('../Data/Intermediate/cluster_mapping_initial_recovery.csv', index_col=0)
 
 # Plot part1 
-
 colors = ['#d53e4f', '#fc8d59', '#fee08b', '#99d594', '#3288bd', '#5e4fa2']
 
 subset = all_data[pd.to_datetime(all_data['Date']).dt.date <= datetime.date(2020, 5, 3)].reset_index(drop=True)
@@ -40,7 +39,7 @@ axes.set_xlabel('Month', fontsize=16, fontname='Arial')
 axes.set_ylabel('% Change Electricity Consumption', fontsize=16, fontname='Arial')
 axes.set_yticks([-25, -20, -15, -10, -5, 0])
 axes.set_yticklabels([-25, -20, -15, -10, -5, 0], fontsize=16, fontname='Arial')
-axes.set_ylim([-28, 3])
+axes.set_ylim([-28, 5])
 axes.set_xlim([datetime.date(2020,1,1), datetime.date(2020, 10, 27)])
 axes.legend(fontsize=16, ncol=2, loc='lower right', prop={'family':'Arial', 'size':16})
 plt.xticks(fontsize=16, fontname='Arial')
