@@ -170,19 +170,19 @@ def plot_terciles_oneplot(metric_name, number, period, summary_data, reverse=Fal
     f_ax7 = fig.add_subplot(gs[1, 4], sharey=f_ax6)
     f_ax8 = fig.add_subplot(gs[1, 5], sharey=f_ax6)
 
-    f_ax1.set_title('Colour By KMeans')
+    f_ax1.set_title('Colour By KMeans', fontname='Arial')
     f_ax1.barh(test.index.values, test[metric_name].values, color=test['Colour2'].values)
     f_ax1.set_yticks(test.index.values)
-    f_ax1.set_yticklabels(test['Country Name'].values)
-    f_ax1.set_xlabel(metric_name)
+    f_ax1.set_yticklabels(test['Country Name'].values, fontname='Arial')
+    f_ax1.set_xlabel(metric_name, fontname='Arial')
     legend_elements = [Patch(facecolor=all_colours[0], label='Cluster 1'), Patch(facecolor=all_colours[1], label='Cluster 2'), Patch(facecolor=all_colours[2], label='Cluster 3')]
-    f_ax1.legend(handles=legend_elements, loc='upper left')
-    f_ax2.set_title('Colour By Tercile')
+    f_ax1.legend(handles=legend_elements, loc='upper left', prop={'family':'Arial'})
+    f_ax2.set_title('Colour By Tercile', fontname='Arial')
     f_ax2.barh(test.index.values, test[metric_name].values, color=test['Colour'].values)
     f_ax2.set_yticks(test.index.values)
-    f_ax2.set_yticklabels(test['Country Name'].values)
-    f_ax2.set_xlabel(metric_name)
-    f_ax2.legend(handles=legend_elements_terciles, loc='upper left')
+    f_ax2.set_yticklabels(test['Country Name'].values, fontname='Arial')
+    f_ax2.set_xlabel(metric_name, fontname='Arial')
+    f_ax2.legend(handles=legend_elements_terciles, loc='upper left', prop={'family':'Arial'})
         
     label1 = col
     label2 = metric_name+' Tercile '+str(number)
@@ -196,12 +196,13 @@ def plot_terciles_oneplot(metric_name, number, period, summary_data, reverse=Fal
         ax_dict[int(val1)].plot(pd.to_datetime(data_plot['Date']), data_plot[i].values, color=all_colours[int(val1)])
     for j in range(3):
         ax_dict[j].axhline(0, color='k')
-        ax_dict[j].set_title('Cluster '+str(j+1))
+        ax_dict[j].set_title('Cluster '+str(j+1), fontname='Arial')
         ax_dict[j].xaxis.set_major_locator(mdates.MonthLocator(interval=1))
         ax_dict[j].xaxis.set_major_formatter(DateFormatter("%m-%d"))
-        ax_dict[j].set_xlabel('Date')
-    f_ax3.legend(handles=legend_elements, loc='lower left')
-    f_ax3.set_ylabel('Percent Change Electricity Consumption')
+        plt.xticks(fontname='Arial')
+        ax_dict[j].set_xlabel('Date', fontname='Arial')
+    f_ax3.legend(handles=legend_elements, loc='lower left', prop={'family':'Arial'})
+    f_ax3.set_ylabel('Percent Change Electricity Consumption', fontname='Arial')
 
     ax_dict = {0:f_ax6, 1:f_ax7, 2:f_ax8}
     for i in data_plot.columns[1:]:
@@ -213,12 +214,13 @@ def plot_terciles_oneplot(metric_name, number, period, summary_data, reverse=Fal
             ax_dict[int(val2)].plot(pd.to_datetime(data_plot['Date']), data_plot[i].values, color=all_colours[int(val1)])
     for j in range(number):
         ax_dict[j].axhline(0, color='k')
-        ax_dict[j].set_title('Tercile '+str(j+1))
+        ax_dict[j].set_title('Tercile '+str(j+1), fontname='Arial')
         ax_dict[j].xaxis.set_major_locator(mdates.MonthLocator(interval=1))
         ax_dict[j].xaxis.set_major_formatter(DateFormatter("%m-%d"))
-        ax_dict[j].set_xlabel('Date')
-    ax_dict[0].set_ylabel('Percent Change Electricity Consumption')
-    ax_dict[0].legend(handles=legend_elements, loc='lower left')
+        ax_dict[j].set_xlabel('Date', fontname='Arial')
+        plt.xticks(fontname='Arial')
+    ax_dict[0].set_ylabel('Percent Change Electricity Consumption', fontname='Arial')
+    ax_dict[0].legend(handles=legend_elements, loc='lower left', prop={'family':'Arial'})
 
 
     f_ax0.axis('off')
@@ -287,19 +289,20 @@ def plot_quartiles_oneplot(metric_name, number, period, summary_data, reverse=Fa
     f_ax9 = fig.add_subplot(gs[1, 5], sharey=f_ax6)
     f_ax10 = fig.add_subplot(gs[1, 6], sharey=f_ax6)
 
-    f_ax1.set_title('Colour By KMeans')
+    f_ax1.set_title('Colour By KMeans', fontname='Arial')
     f_ax1.barh(test.index.values, test[metric_name].values, color=test['Colour2'].values)
     f_ax1.set_yticks(test.index.values)
-    f_ax1.set_yticklabels(test['Country Name'].values)
-    f_ax1.set_xlabel(metric_name)
+    f_ax1.set_yticklabels(test['Country Name'].values, fontname='Arial')
+    f_ax1.set_xlabel(metric_name, fontname='Arial')
     legend_elements = [Patch(facecolor=all_colours[0], label='Cluster 1'), Patch(facecolor=all_colours[1], label='Cluster 2'), Patch(facecolor=all_colours[2], label='Cluster 3'), Patch(facecolor=all_colours[3], label='Cluster 4')]
-    f_ax1.legend(handles=legend_elements, loc='upper left')
-    f_ax2.set_title('Colour By Quartile')
+    f_ax1.legend(handles=legend_elements, loc='upper left', prop={'family':'Arial'})
+    f_ax2.set_title('Colour By Quartile', fontname='Arial')
     f_ax2.barh(test.index.values, test[metric_name].values, color=test['Colour'].values)
     f_ax2.set_yticks(test.index.values)
-    f_ax2.set_yticklabels(test['Country Name'].values)
-    f_ax2.set_xlabel(metric_name)
-    f_ax2.legend(handles=legend_elements_terciles, loc='upper left')
+    f_ax2.set_yticklabels(test['Country Name'].values, fontname='Arial')
+    f_ax2.set_xlabel(metric_name, fontname='Arial')
+    plt.xticks(fontname='Arial')
+    f_ax2.legend(handles=legend_elements_terciles, loc='upper left', prop={'family':'Arial'})
         
     label1 = col
     label2 = metric_name+' Quartile '+str(number)
@@ -313,12 +316,13 @@ def plot_quartiles_oneplot(metric_name, number, period, summary_data, reverse=Fa
         ax_dict[int(val1)].plot(pd.to_datetime(data_plot['Date']), data_plot[i].values, color=all_colours[int(val1)])
     for j in range(4):
         ax_dict[j].axhline(0, color='k')
-        ax_dict[j].set_title('Cluster '+str(j+1))
+        ax_dict[j].set_title('Cluster '+str(j+1), fontname='Arial')
         ax_dict[j].xaxis.set_major_locator(mdates.MonthLocator(interval=1))
         ax_dict[j].xaxis.set_major_formatter(DateFormatter("%m-%d"))
-        ax_dict[j].set_xlabel('Date')
-    f_ax3.legend(handles=legend_elements, loc='lower left')
-    f_ax3.set_ylabel('Percent Change Electricity Consumption')
+        ax_dict[j].set_xlabel('Date', fontname='Arial')
+        plt.xticks(fontname='Arial')
+    f_ax3.legend(handles=legend_elements, loc='lower left', prop={'family':'Arial'})
+    f_ax3.set_ylabel('Percent Change Electricity Consumption', fontname='Arial')
 
     ax_dict = {0:f_ax7, 1:f_ax8, 2:f_ax9, 3:f_ax10}
     for i in data_plot.columns[1:]:
@@ -330,12 +334,13 @@ def plot_quartiles_oneplot(metric_name, number, period, summary_data, reverse=Fa
             ax_dict[int(val2)].plot(pd.to_datetime(data_plot['Date']), data_plot[i].values, color=all_colours[int(val1)])
     for j in range(number):
         ax_dict[j].axhline(0, color='k')
-        ax_dict[j].set_title('Quartile '+str(j+1))
+        ax_dict[j].set_title('Quartile '+str(j+1), fontname='Arial')
         ax_dict[j].xaxis.set_major_locator(mdates.MonthLocator(interval=1))
         ax_dict[j].xaxis.set_major_formatter(DateFormatter("%m-%d"))
-        ax_dict[j].set_xlabel('Date')
-    ax_dict[0].set_ylabel('Percent Change Electricity Consumption')
-    ax_dict[0].legend(handles=legend_elements, loc='lower left')
+        ax_dict[j].set_xlabel('Date', fontname='Arial')
+        plt.xticks(fontname='Arial')
+    ax_dict[0].set_ylabel('Percent Change Electricity Consumption', fontname='Arial')
+    ax_dict[0].legend(handles=legend_elements, loc='lower left', prop={'family':'Arial'})
 
 
     f_ax0.axis('off')
