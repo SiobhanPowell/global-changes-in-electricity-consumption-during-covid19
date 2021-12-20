@@ -56,10 +56,12 @@ def elbow_plot(df, save_str=None, title=''):
 
     plt.figure(figsize=(5,4))
     plt.plot(cluster_fit['Num Clusters'], cluster_fit['Inertia'],'-*')
-    plt.ylabel('Inertia', fontsize=14); plt.xlabel('Number of Clusters', fontsize=14)
-    plt.xticks(fontsize=14)
+    plt.ylabel('Inertia', fontsize=14, fontname='Arial'); 
+    plt.xlabel('Number of Clusters', fontsize=14, fontname='Arial')
+    plt.xticks(fontsize=14, fontname='Arial')
+    plt.yticks(fontname='Arial')
     plt.tight_layout()
-    plt.title(title, fontsize=14)
+    plt.title(title, fontsize=14, fontname='Arial')
     if save_str is not None:
         plt.savefig(save_str, bbox_inches='tight')
     plt.show()
@@ -121,10 +123,11 @@ for i in range(3):
     axes[i].xaxis.set_major_formatter(mdates.DateFormatter('%b'))
     axes[i].set_ylim([-28, 10])
     axes[i].set_xlim(xlims)
-    axes[i].set_title(titles[i], fontsize=16)
+    axes[i].set_title(titles[i], fontsize=16, fontname='Arial')
     if i == 0:
-        axes[i].set_ylabel('Weekly % chg electricity consumption', fontsize=12)
-    axes[i].set_xlabel('Date', fontsize=12)
+        axes[i].set_ylabel('Weekly % chg electricity consumption', fontsize=12, fontname='Arial')
+    axes[i].set_xlabel('Date', fontsize=12, fontname='Arial')
+    plt.xticks(fontname='Arial', fontsize=12)
     
 plt.tight_layout()
 plt.savefig('../Figures/fig4a_timeseries_Initial_transition.pdf', bbox_inches='tight')
@@ -154,11 +157,11 @@ for i in range(3):
     axes[i].xaxis.set_major_formatter(mdates.DateFormatter('%b'))
     axes[i].set_ylim([-28, 10])
     axes[i].set_xlim(xlims)
-    axes[i].set_title(titles[i], fontsize=16)
+    axes[i].set_title(titles[i], fontsize=16, fontname='Arial')
     if i == 0:
-        axes[i].set_ylabel('Weekly % chg electricity consumption', fontsize=12)
-    axes[i].set_xlabel('Date', fontsize=12)
-    
+        axes[i].set_ylabel('Weekly % chg electricity consumption', fontsize=12, fontname='Arial')
+    axes[i].set_xlabel('Date', fontsize=12, fontname='Arial')
+    plt.xticks(fontname='Arial', fontsize=12)
 plt.tight_layout()
 plt.savefig('../Figures/fig4b_timeseries_Recovery_transition.pdf', bbox_inches='tight')
 plt.show()

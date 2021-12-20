@@ -118,12 +118,12 @@ def plot_means_optionb(df, col, ylabel, figsize=(3.5, 3), savestr=None, yrange=N
         cluster_labels = ['Extreme', 'Severe', 'Mild']
     else:
         cluster_labels = ['Slow', 'Quick', 'Recovered']
-    plt.xticks([1,2,3],labels=cluster_labels, fontsize=12, rotation=25, ha='center')
+    plt.xticks([1,2,3],labels=cluster_labels, fontsize=12, rotation=25, ha='center', fontname='Arial')
     plt.xlim([0.5, 3.5])
-    plt.ylabel(ylabel, fontsize=12)
+    plt.ylabel(ylabel, fontsize=12, fontname='Arial')
     if yrange is not None:
         plt.ylim(yrange)
-    plt.yticks(fontsize=14)
+    plt.yticks(fontsize=14, fontname='Arial')
     plt.tight_layout()
     if savestr is not None:
         plt.savefig(savestr, bbox_inches='tight')
@@ -165,17 +165,18 @@ def plot_means_set_optionb(df, col_set, ylabel, figsize=(6,3), savestr=None, yra
         cluster_labels = ['Extreme', 'Severe', 'Mild']
     else:
         cluster_labels = ['Slow', 'Quick', 'Recovered']
-    plt.xticks([1,2,3],labels=cluster_labels, fontsize=12, rotation=25, ha='center')
+    plt.xticks([1,2,3],labels=cluster_labels, fontsize=12, rotation=25, ha='center', fontname='Arial')
     plt.xlim([0.5, 3.5])
-    plt.ylabel(ylabel, fontsize=12)
-    plt.yticks( fontsize=14)
+    plt.ylabel(ylabel, fontsize=12, fontname='Arial')
+    plt.yticks( fontsize=14, fontname='Arial')
     if yrange is not None:
         plt.ylim(yrange)
     if move_legend:
         plt.legend(loc=(-1,1))
     else:
 #         plt.legend(ncol=1, loc='lower right')
-        plt.legend(ncol=legend_ncol, loc=legend_loc)
+#         plt.legend(ncol=legend_ncol, loc=legend_loc, 
+        plt.legend(loc=legend_loc, ncol=legend_ncol, prop={'family':'Arial'})#, 'size':12, 'loc':legend_loc, 'ncol':legend_ncol})
         plt.tight_layout()
 #     plt.tight_layout()
     if savestr is not None:
